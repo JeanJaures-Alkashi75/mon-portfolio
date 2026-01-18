@@ -16,7 +16,7 @@ const Navbar = () => {
         {/* Bouton de téléchargement du CV */}
         <li>
           <a 
-            href="/cv.pdf" 
+            href="/CV_ALKDEV.pdf" 
             download="CV_ALKDEV.pdf" 
             className="btn btn-accent btn-sm ml-4 gap-2 text-white"
           >
