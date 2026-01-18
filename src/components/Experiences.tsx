@@ -65,7 +65,8 @@ const experiences = [
 const Experiences = () => {
   
   return (
-    <div id="Experiences">
+    // J'ai ajouté -mt-10 pour remonter et mb-20 pour l'espace avec la suite
+    <div id="Experiences" className="-mt-10 mb-20">
       <Title title="Experiences"/>
       <div className="flex flex-col-reverse md:flex-row justify-center items-center">
         <div className="flex flex-wrap gap-4 justify-center items-center md:w-1/3 mt-4 md:mt-0">

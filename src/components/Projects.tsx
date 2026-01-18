@@ -16,7 +16,7 @@ const projects = [
         description: 'Une application de gestion de tâches performante permettant d’organiser son quotidien avec une interface fluide et intuitive.',
         technologies: ['ReactJS', 'TypeScript', 'TailwindCSS'],
         demoLink: '#',
-        repoLink: 'https://github.com/ton-pseudo/todo-app', // REMPLACE PAR TON LIEN
+        repoLink: 'https://github.com/JeanJaures-Alkashi75/todo-app-react',
         image: imgTodo,
     },
     {
@@ -25,7 +25,7 @@ const projects = [
         description: 'Mon site vitrine interactif présentant mon parcours, mes compétences techniques et l’ensemble de mes réalisations.',
         technologies: ['ReactJS', 'TypeScript', 'TailwindCSS'],
         demoLink: '#',
-        repoLink: 'https://github.com/ton-pseudo/monPortfolio', // REMPLACE PAR TON LIEN
+        repoLink: 'https://github.com/JeanJaures-Alkashi75/mon-portfolio',
         image: imgPortfolio,
     },
     {
@@ -34,7 +34,7 @@ const projects = [
         description: 'Application innovante pour gérer les informations de santé humaines et animales, éliminant le besoin de carnets de santé physiques.',
         technologies: ['ReactJS', 'TypeScript', 'TailwindCSS'],
         demoLink: '#',
-        repoLink: 'https://github.com/ton-pseudo/healthtrack', // REMPLACE PAR TON LIEN
+        repoLink: 'https://github.com/JeanJaures-Alkashi75/health-track',
         image: imgHealth,
     },
     {
@@ -43,7 +43,7 @@ const projects = [
         description: 'Système intelligent de prédiction des maladies des champs et de suivi agricole basé sur l’analyse de données.',
         technologies: ['Flutter', 'Django', 'TailwindCSS'],
         demoLink: '#',
-        repoLink: '#', // Reste à # pour déclencher l'alerte
+        repoLink: '#', 
         image: imgAgri,
     },
     {
@@ -52,7 +52,7 @@ const projects = [
         description: 'Système intelligent de détection et de prédiction des risques respiratoires pour améliorer la santé environnementale.',
         technologies: ['Python', 'Flutter', 'Django'],
         demoLink: '#',
-        repoLink: '#', // Reste à # pour déclencher l'alerte
+        repoLink: '#',
         image: imgAir,
     },
     {
@@ -61,20 +61,18 @@ const projects = [
         description: 'Une application complète de suivi de dépenses pour une gestion rigoureuse et simplifiée de ses finances personnelles.',
         technologies: ['Fullstack', 'Finance', 'Web'],
         demoLink: '#',
-        repoLink: '#', // Reste à # pour déclencher l'alerte
+        repoLink: '#',
         image: imgExpense,
     },
 ];
 
 const Projects = () => {
 
-    // Gestion de l'alerte Vidéo
     const handleDemoClick = (e: React.MouseEvent) => {
         e.preventDefault();
         alert("Les vidéos de démonstrations ne sont pas encore disponibles.");
     };
 
-    // Gestion de l'alerte GitHub (pour les projets sans lien)
     const handleGithubClick = (e: React.MouseEvent, repoLink: string) => {
         if (repoLink === '#') {
             e.preventDefault();
